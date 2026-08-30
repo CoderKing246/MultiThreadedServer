@@ -1,7 +1,6 @@
 # 🚀 High-Concurrency Java TCP Server
 -----
-
-![Thumbnail](100k.png)
+![Thumbnail](100K.png)
 
 ----
 A multithreaded TCP server built from scratch using **Java Socket Programming and a fixed-size Thread Pool**.
