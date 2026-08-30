@@ -1,6 +1,6 @@
 # 🚀 High-Concurrency Java TCP Server
 -----
-![Thumbnail](100K.png)
+![Thumbnail](images/100K.png)
 
 ----
 A multithreaded TCP server built from scratch using **Java Socket Programming and a fixed-size Thread Pool**.
@@ -13,7 +13,7 @@ The server has been load tested using **Apache JMeter**, successfully processing
 
 ## 🏗️ Architecture
 
-![Server Architecture](server_arch.png)
+![Server Architecture](images/server_arch.png)
 
 The server follows a simple **ServerSocket + Thread Pool** architecture:
 
@@ -229,7 +229,7 @@ It demonstrates that a relatively small number of reusable worker threads can pr
 
 The following screenshot shows the **JMeter graphical representation of the test results**.
 
-![JMeter Graph Result](1M_graph.png)
+![JMeter Graph Result](images/1M_graph.png)
 
 The graph can be used to observe response-time behavior and how the server performs during the load test.
 
@@ -239,7 +239,7 @@ The graph can be used to observe response-time behavior and how the server perfo
 
 The following screenshot shows the **JMeter tabular result** containing the measured request statistics.
 
-![JMeter Table Result](100k_table.png)
+![JMeter Table Result](images/100k_table.png)
 
 Important metrics include:
 
